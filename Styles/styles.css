@@ -1,0 +1,15 @@
+* {
+  text-decoration: none;
+}
+
+html {
+  background-color: rgb(3, 11, 37);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  min-height: 100vh;
+}/*# sourceMappingURL=styles.css.map */

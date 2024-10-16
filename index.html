@@ -1,13 +1,161 @@
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio</title>
-  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body>
-  <h1 class="text-3xl font-bold underline text-green-600"">
-    Hola a todos
-  </h1>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <link rel="stylesheet" href="./Styles/index.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header class="bg-red">
+      <div class="navbar justify-center">
+        <div class="navbar-center lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>About Me</a></li>
+            <li><a>Projects</a></li>
+          </ul>
+          <a class="btn btn-sm btn-primary">Contact me</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="hero bg-base-100 min-h-screen flex justify-center">
+        <div class="hero-content text-center">
+          <div class="max-w-md">
+            <div class="avatar">
+              <div class="w-32 rounded-full">
+                <img src="./Styles/img/foto-perfil.jpg" />
+              </div>
+            </div>
+            <h1 class="text-5xl font-bold">Hello there</h1>
+            <div class="badge badge-secondary badge-outline mt-3">Disponible para trabajar</div>
+            <p class="py-5">
+              Soy un desarrollador web con mas de 3 años de experiencia brindandoles servicios de diseño y desarrollo a multiples clientes grandes y pequeños. Mi especializacion son paginas web y aplicaciones con estilos visuales radicales que busquen cautivar y atrapar a los usuarios.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="px-10 py-10 flex flex-col items-center">
+        <div class="pb-10">
+          <h1 class="text-5xl font-bold text-center">
+            Experiencia
+          </h1>
+        </div>
+        <div class="pb-10">
+          <p>
+           Los proyectos mas importantes en los que trabaje
+          </p>
+        </div>
+        <div class="sm:flex sm:flex-col md:grid md:grid-cols-2 grid-cols-3 gap-10 ">
+          <div class="card card-compact bg-base-100 w-96 shadow-xl">
+            <figure>
+              <img
+                src="./Styles/img/website1.png"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Sitio Web</h2>
+              <p>Sitio Web para un negocio</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Revisar</button>
+              </div>
+            </div>
+          </div>
+          <div class="card card-compact bg-base-100 w-96 shadow-xl">
+            <figure>
+              <img
+                src="./Styles/img/website 2.png"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Sitio Web</h2>
+              <p>Sitio Web para un negocio</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Revisar</button>
+              </div>
+            </div>
+          </div>
+          <div class="card card-compact bg-base-100 w-96 shadow-xl">
+            <figure>
+              <img
+                src="./Styles/img/website3.png"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Sitio Web</h2>
+              <p>Sitio Web para un negocio</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Revisar</button>
+              </div>
+            </div>
+          </div>
+          <div class="card card-compact bg-base-100 w-96 shadow-xl">
+            <figure>
+              <img
+                src="./Styles/img/website4.png"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Sitio Web</h2>
+              <p>Sitio Web para un negocio</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Revisar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-10 flex flex-col items-center">
+        <div class="pb-10">
+          <h1 class="text-5xl font-bold text-center">
+            Contacto
+          </h1>
+        </div>
+        <div class="card bg-neutral text-neutral-content w-96">
+          <div class="card-body items-center text-center">
+            <label class="input input-bordered flex items-center gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="h-4 w-4 opacity-70">
+                <path
+                  d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
+                <path
+                  d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
+              </svg>
+              <input type="text" class="grow" placeholder="Email" />
+            </label>
+            <label class="input input-bordered flex items-center gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="h-4 w-4 opacity-70">
+                <path
+                  d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM12.735 14c.618 0 1.093-.561.872-1.139a6.002 6.002 0 0 0-11.215 0c-.22.578.254 1.139.872 1.139h9.47Z" />
+              </svg>
+              <input type="text" class="grow" placeholder="Username" />
+            </label>
+            <textarea class="textarea textarea-bordered items-center textarea-xs w-full max-w-xs" placeholder="Mensaje"></textarea>
+            <button class="btn btn-primary mt-5">Enviar</button>
+          </div>
+        </div>
+      </div>
+  
+    </main>
+    <footer >
+      <script src="./node_modules/preline/dist/preline.js"></script>
+      <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+      <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/script-name.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    </footer>
+  </body>
 </html>
